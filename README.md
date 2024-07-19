@@ -40,4 +40,4 @@
             
 
 
-Now you are all set to run the main.ps1 file and you can edit as per your needs. 
+Now you are all set to run the main.ps1 file after editing it as per your needs. 
