@@ -6,8 +6,6 @@ $interval = 60
 $cluster = Get-Cluster -Name "Your Cluster name"
 
 
-while($true) {
-
 if ($cluster) {
     $vms = Get-Cluster $cluster | Get-VM
     $vmDetails = @()
@@ -225,6 +223,3 @@ $perfDetails
 
 }
 
-Start-Sleep -Seconds $interval
-
-}
