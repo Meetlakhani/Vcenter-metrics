@@ -2,20 +2,20 @@
 - This repo focuses on pulling all the VM details, VMHost details, Vsan Performance details, and Health details of the cluster on which your VMs and Hosts are, using PowerCLI commands.
 
 
-# Install Powershell using brew (On MacOS): 
+# Installing Powershell using brew (On MacOS): 
 - brew install powershell/tap/powershell
 - pwsh (to enter into powershell)
 
-# Install Powershell on Linux:
+# Installing Powershell on Linux:
 - You can explore "https://developer.broadcom.com/powercli/installation-guide"
 
-# Install PowerCLI from within powershell
+# Installing PowerCLI from within powershell
 
 - Install-Module -Name VMware.PowerCLI
 - Get-Module -Name VMware.PowerCLI -ListAvailable   (to verify installation)
 - Import-Module VMware.PowerCLI
 
-# Connect to Vcenter server
+# Connecting to Vcenter server
 - Connect-VIServer -Server "IP address of your server" -User "Your username" -Password "Your password"
 - If you get SSL error, then follow the below commands.
 
