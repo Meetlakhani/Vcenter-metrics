@@ -1,5 +1,5 @@
 # Description
-- This repo focuses on pulling all the VM details, VMHost details, Vsan Performance details, and Health details of the cluster on which your VMs and Hosts are.
+- This repo focuses on pulling all the VM details, VMHost details, Vsan Performance details, and Health details of the cluster on which your VMs and Hosts are, using PowerCLI commands.
 
 
 # Install Powershell using brew (On MacOS): 
