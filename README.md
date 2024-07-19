@@ -6,6 +6,9 @@
 - brew install powershell/tap/powershell
 - pwsh (to enter into powershell)
 
+# Install Powershell on Linux:
+- You can explore "https://developer.broadcom.com/powercli/installation-guide"
+
 # Install PowerCLI from within powershell
 
 - Install-Module -Name VMware.PowerCLI
